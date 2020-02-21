@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2f3542;
+}
+
+body {
+    background: #ffeaa7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.city-form {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#city-input-field {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    transition: all .05s ease-in-out;
+}
+
+#city-input-field:focus{
+    transform: scale(1.01);
+    color: rgb(47, 47, 47);
+    outline: none;
+}
+
+.search-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.search-btn:hover {
+    font-sizE: 32px;
+    color: rgb(97, 96, 96);
+}
+
+.main-weather-display {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-name {
+    text-align: center;
+}
+
+.city-name h3 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.city-name h2{
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.temp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp h2{
+    font-size: 52px;
+}
+
+.temp p {
+    margin-top: .5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 15vh;
+    background: #2f3542;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details * {
+    padding: .2rem;
+}
+
+.details p{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.temps {
+    display: flex;
+}
