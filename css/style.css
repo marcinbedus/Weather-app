@@ -52,7 +52,7 @@ body {
 }
 
 .informations {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,7 @@ body {
     width: 100vw;
     height: 15vh;
     background: #2f3542;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
